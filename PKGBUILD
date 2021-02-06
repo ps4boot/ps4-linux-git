@@ -14,7 +14,7 @@ makedepends=(
 options=('!strip')
 _srcname=ps4-linux
 source=(
-  "$_srcname::git+https://github.com/ps4boot/ps4-linux"
+  "$_srcname::git+https://github.com/ps4boot/ps4-linux#branch=belize"
   config         # the main kernel config file
   60-linux.hook
   90-linux.hook
